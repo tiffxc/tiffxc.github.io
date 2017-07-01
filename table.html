@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Carousel</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="css/portfolio-item.css" rel="stylesheet">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+
+<body>
+
+  <!-- Navigation -->
+  <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+      <div class="container">
+          <!-- Brand and toggle get grouped for better mobile display -->
+          <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                  <span class="sr-only">Toggle navigation</span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+              </button>
+              <a class="navbar-brand" href="index.html">Tiffany Cheung</a>
+          </div>
+          <!-- Collect the nav links, forms, and other content for toggling -->
+          <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+              <ul class="nav navbar-nav">
+                <li>
+                    <a href="projects.html">Projects</a>
+                </li>
+                <li>
+                    <a href="paintings.html">Paintings</a>
+                </li>
+                <li>
+                    <a href="fsae.html">Berkeley FSAE</a>
+                </li>
+                <li>
+                    <a href="contact.html">Contact</a>
+                </li>
+              </ul>
+          </div>
+          <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container -->
+    </nav>
+
+    <!-- Page Content -->
+    <div class="container">
+
+        <!-- Portfolio Item Heading -->
+        <div class="row">
+            <div class="col-lg-12">
+                <h1 class="page-header">Wooden Table
+                    <!-- <small>Item Subheading</small> -->
+                </h1>
+            </div>
+        </div>
+        <!-- /.row -->
+
+        <!-- Portfolio Item Row -->
+        <div class="row">
+
+            <div class="col-md-9">
+                <img src="http://i.imgur.com/JCsYCuw.jpg" title="source: imgur.com" style="height:75%;width:75%;margin-right:10px;" />
+                <img src="http://i.imgur.com/HoN8HQc.jpg" title="source: imgur.com" style="height:25%;width:25%;margin-right:10px;" />
+                <img src="http://i.imgur.com/C1xJZaE.jpg" title="source: imgur.com" style="height:25%;width:25%;margin-right:10px;" />
+                <img src="http://i.imgur.com/PlcfWKZ.jpg" title="source: imgur.com" style="height:25%;width:25%;margin-right:10px;" />
+
+                <img src="http://i.imgur.com/CyILLIQ.jpg" title="source: imgur.com" style="height:25%;width:25%;margin-right:10px;" />
+                <img src="http://i.imgur.com/IZDSuDr.png" title="source: imgur.com" style="height:25%;width:25%;margin-right:10px;" />
+
+                <img src="http://i.imgur.com/aofZIDX.jpg" title="source: imgur.com" style="height:25%;width:25%;margin-right:10px;" />
+                <img src="http://i.imgur.com/46Oczwj.jpg" title="source: imgur.com" style="height:25%;width:25%;margin-right:10px;" />
+                <img src="http://i.imgur.com/mJY04mq.png" title="source: imgur.com" style="height:25%;width:25%;margin-right:10px;" />
+                <img src="http://i.imgur.com/dnv82C2.png" title="source: imgur.com" style="height:25%;width:25%;margin-right:10px;" />
+                <img src="http://i.imgur.com/GxnZkHc.jpg" title="source: imgur.com" style="height:25%;width:25%;margin-right:10px;" />
+
+                <img src="http://i.imgur.com/ckNQxSi.jpg" title="source: imgur.com" style="height:25%;width:25%;margin-right:10px;" />
+                <img src="http://i.imgur.com/62NCOzG.jpg" title="source: imgur.com" style="height:25%;width:25%;margin-right:10px;" />
+                <img src="http://i.imgur.com/xbYTleo.jpg" title="source: imgur.com" style="height:25%;width:25%;margin-right:10px;" />
+                <img src="http://i.imgur.com/knRdpKA.jpg" title="source: imgur.com" style="height:25%;width:25%;margin-right:10px;" />
+
+
+            </div>
+
+            <div class="col-md-3">
+                <h3>Project Description</h3>
+                <p>From 1/20 - 1/22, my teammates and I traveled to the University of Pennsylvania to participate in PennApps, their semi-annual hackathon. A hackathon is an event spanning a number of days in which people involved in software development collaborate on projects.</p>
+                <p>Our idea was to create a storage system that allows for quick retrieval of PCB parts. PCBs are printed circuit boards that typically contain many small, seemingly identical parts. We store these parts in hundreds of bags thrown in a cardboard box. It's a pain to sift through and find the particular part we want.</p>
+                <p>In a period of 36 hours, we created a storage system that allows for quick retrieval of these bagged parts. This has great future applications with other small components such as medicine tablets/pills. <a href="https://devpost.com/software/carousel-zhj3x8">Full Project Description</a></p>
+                <h3><b>How It Works</b></h3>
+                <p>Using the web application on either a mobile phone or a computer, you scan the barcode of the bag when adding a part to Carousel. This barcode is used to identify the manufacturer, part number, and description. Carousel will then spin to an empty spot and light an LED where you should place the item using a binder clip. To retrieve a bag, you search for the part using a part number. Carousel spins to the spot, the LED lights up, and you remove the bag.</p>
+                <a href="https://www.youtube.com/watch?v=QHo1fBef7-g">Demo Video </a>
+                <p>I worked on hardware for this project. I drew out sketches of what I wanted the base and component retrieval to look like. As a team, we discussed the idea of a carousel so that the device might look something like the side view drawing in the bottom left corner (left image). Together, we thought of having two separate disks to hold the binder clip and papers up. After initial brainstorming, I was left to the design, consulting teammates about final design ideas when needed.</p>
+                <p>I came to the conclusion that we couldn't have a pole in the middle to make it look like a carousel because we wanted the LEDs to stay in place above the disk while the disk would spin to a specific location. We also didn't have anything to use as a pole. Many sketches later led to the final CAD design, which I modeled in SolidWorks.</p>
+                <p>I test cut the two slots on the left for our original design of two disks to test for bag size and binder clip placement. I realized that we didn't need two disks to do the job, so I scratched that and kept a single disk. On the right, I designed a motor mount that would be 3D printed.</p>
+                <p>On the left is a picture of the Dynamixel servo that we used. ​On the right, screenshots of the motor mount are shown. The top picture is shown the way we 3D printed the motor mount (flat side down); I cut off the bottom so that it would be easier and stronger to 3D print. On the bottom, I designed the 8 screw holes surrounding the center to be countersunk and the center hole to be cut out so the mount can sit on the front face of the servo shown on the left.</p>
+                <p>The center of the spinning disk is cut out in the shape of a square so that it can sit and turn with the motor mount comfortably and without glue.</p>
+                <p>We added holes to zip tie various wires everywhere. </p>
+                <p>Final pictures + inside Carousel:</p>
+
+                <!-- <h3>Project Details</h3>
+                <ul>
+                    <li>Lorem Ipsum</li>
+                    <li>Dolor Sit Amet</li>
+                    <li>Consectetur</li>
+                    <li>Adipiscing Elit</li>
+                </ul> -->
+            </div>
+
+        </div>
+        <!-- /.row -->
+
+        <!-- Related Projects Row -->
+        <div class="row">
+
+            <div class="col-lg-12">
+                <h3 class="page-header">Related Projects</h3>
+            </div>
+
+            <div class="col-sm-3 col-xs-6">
+                <a href="#">
+                    <img class="img-responsive portfolio-item" src="http://placehold.it/500x300" alt="">
+                </a>
+            </div>
+
+            <div class="col-sm-3 col-xs-6">
+                <a href="#">
+                    <img class="img-responsive portfolio-item" src="http://placehold.it/500x300" alt="">
+                </a>
+            </div>
+
+            <div class="col-sm-3 col-xs-6">
+                <a href="#">
+                    <img class="img-responsive portfolio-item" src="http://placehold.it/500x300" alt="">
+                </a>
+            </div>
+
+            <div class="col-sm-3 col-xs-6">
+                <a href="#">
+                    <img class="img-responsive portfolio-item" src="http://placehold.it/500x300" alt="">
+                </a>
+            </div>
+
+        </div>
+        <!-- /.row -->
+
+        <hr>
+
+        <!-- Footer -->
+        <footer>
+            <div class="row">
+                <div class="col-lg-12">
+                    <p>&copy; 2017 by Tiffany Cheung</p>
+                </div>
+            </div>
+            <!-- /.row -->
+        </footer>
+
+    </div>
+    <!-- /.container -->
+
+    <!-- jQuery -->
+    <script src="js/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+
+</body>
+
+</html>
